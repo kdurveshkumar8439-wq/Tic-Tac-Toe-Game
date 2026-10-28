@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(255,255,100,0.5);
+    text-align: center;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Ar;
+    font-weight: 1000;
+    text-transform:capitalize;
+    text-decoration: underline;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    gap: 10px;
+    background: #1e3a8a;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2563eb;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box:hover {
+    background: #dbeafe;
+    transform: scale(1.04);
+}
+
+#reset-btn,
+#newbutton {
+    padding: 12px 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#reset-btn {
+    background: #dc2626;
+}
+
+#reset-btn:hover {
+    background: #991b1b;
+}
+
+#newbutton:hover {
+    background: #1e3a8a;
+}
+
+.mgs-container {
+    background: rgba(00,255,00,0.99);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #0002;
+    font-style: italic;
+}
+
+.mgs-container h2 {
+    font-size: 22px;
+}
+
+@media (max-width: 400px) {
+    .game {
+        grid-template-columns: repeat(3, 75px);
+    }
+
+    .box {
+        width: 75px;
+        height: 75px;
+    }
+}
+.hide {
+    display: none;
+}
+
+
+
+
+.mgs-container1 {
+    background:rgba(255,00,00,0.99);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #0002;
+    font-style: italic;
+    
+}
+
+.mgs-container1 h2 {
+    font-size: 22px;
+}
+
+@media (max-width: 400px) {
+    .game {
+        grid-template-columns: repeat(3, 75px);
+    }
+
+    .box {
+        width: 75px;
+        height: 75px;
+    }
+}
+.hide1 {
+    display: none;
+}
+
+
+
+

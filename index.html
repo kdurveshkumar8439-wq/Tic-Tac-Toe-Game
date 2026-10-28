@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mgs-container hide">
+        <p id = "msg"><h2>Congratulations You Are Winner </h2></p>
+    </div>
+    <div class="mgs-container1 hide1">
+        <p id = "msg1"><h2>Now Game Over </h2></p>
+    
+    </div>
+    <main>
+   <h1>Welcome To playing Game :</h1>
+   <div class="container">
+    <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+
+        </div>
+        <div>
+    <button type="reset" id="reset-btn">Reset Game</button>
+    <div>
+        <button type="start " id="newbutton">Start Game</button>
+    </div>
+    </div> 
+</div>
+   </main>
+
+<audio id="winSound" src="winSound.mp3" preload="auto"></audio>
+<audio id="gameOver" src="gameover.mp3" preload="auto"></audio>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
